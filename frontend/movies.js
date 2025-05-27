@@ -1,4 +1,5 @@
-const baseURL = "http://localhost:8080/movie"; // adjust backend URL if needed
+// const baseURL = "http://localhost:8080/movie";
+const baseURL = "https://movie-acw2.onrender.com/movie";
 
 const moviesList = document.getElementById("movies-list");
 const movieForm = document.getElementById("movieForm");
