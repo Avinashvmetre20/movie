@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movies</title>
+  <link rel="stylesheet" href="movies.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Movies</h1>
+    <button id="logoutBtn">Logout</button>
+    
+    <div id="movies-list" class="movies-list"></div>
+
+    <hr />
+
+    <h2>Add New Movie</h2>
+    <form id="movieForm">
+      <input type="text" id="title" placeholder="Title" required />
+      <input type="text" id="director" placeholder="Director" required />
+      <input type="text" id="genre" placeholder="Genre"  />
+      <input type="date" id="releaseDate" placeholder="Release Date"  />
+      <input type="number" id="duration" placeholder="Duration (minutes)"  />
+      <input type="number" step="0.1" id="rating" placeholder="Rating (0-10)"  />
+      <textarea id="description" placeholder="Description" ></textarea>
+      <input type="url" id="posterUrl" placeholder="Poster Image URL"  />
+      <button type="submit">Add Movie</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="movies.js"></script>
+</body>
+</html>
